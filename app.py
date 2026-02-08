@@ -30,8 +30,8 @@ def transform_text(text):
 
     return " ".join(y)
 
-tfidf=pickle.load(open("D:\ML\dataset\SMS-DETECTION-PROJECT-MODEL/vectorizer.pkl",'rb'))
-model=pickle.load(open("D:\ML\dataset\SMS-DETECTION-PROJECT-MODEL/model.pkl",'rb'))
+tfidf=pickle.load(open("./vectorizer.pkl",'rb'))
+model=pickle.load(open("./model.pkl",'rb'))
 
 st.title("EMAIL/SMS SPAM CLASSIFIER")
 
